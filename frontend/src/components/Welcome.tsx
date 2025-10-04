@@ -61,7 +61,7 @@ export const Welcome = ({ onEnter }: WelcomeProps) => {
         <div className="space-y-6">
           <div className="inline-flex items-center gap-3 px-6 py-2 rounded-full border-2 border-primary/30 bg-card/40 backdrop-blur-sm animate-pulse-glow">
             <img
-              src="../Black_and_White_Minimal_Negative_Space_Design_Studio_Logo-removebg-preview.png"
+              src="../public/planet.png"
               alt="SARMAD"
               className="h-20 w-auto object-contain"
             />

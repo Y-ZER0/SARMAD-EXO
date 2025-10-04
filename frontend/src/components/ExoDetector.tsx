@@ -355,6 +355,12 @@ export default function ExoDetector() {
                     data. The model retrains after{" "}
                     {modelStats?.threshold || 200} new samples are added.
                   </p>
+                  <div className="text-xs text-muted-foreground bg-muted/30 p-3 rounded-lg">
+                    <p className="font-medium mb-1">Required CSV Format:</p>
+                    <p>• Must include 'koi_disposition' column (CONFIRMED/CANDIDATE/FALSE POSITIVE)</p>
+                    <p>• Must include feature columns: koi_fpflag_nt, koi_period, koi_prad, etc.</p>
+                    <p>• Download template: <a href="http://localhost:5000/csv_template" className="text-primary hover:underline">training_template.csv</a></p>
+                  </div>
                   <div className="border-2 border-dashed border-border/40 rounded-lg p-8 text-center hover:border-primary/50 transition-colors">
                     <input
                       type="file"

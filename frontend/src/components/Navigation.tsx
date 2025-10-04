@@ -30,7 +30,6 @@ export const Navigation = ({
     { id: "detector", label: "AI Detector", icon: Telescope },
     { id: "search", label: "Exoplanet Search", icon: Search },
     { id: "community", label: "Research Community", icon: Users },
-    { id: "chatbot", label: "AI Assistant", icon: MessageSquare },
   ];
 
   return (
@@ -40,11 +39,14 @@ export const Navigation = ({
           <div className="container mx-auto px-4 py-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="p-2 rounded-full stellar-gradient animate-pulse-glow">
+                <div className="p-2 rounded-full animate-pulse-glow">
                   <img
-                    src="../Black_and_White_Minimal_Negative_Space_Design_Studio_Logo-removebg-preview.png"
+                    src="../public/planet.png"
                     alt="SARMAD"
-                    className="h-12 w-auto object-contain"
+                    className="h-14 w-auto object-contain"
+                    width={56}
+                    height={86}
+
                   />
                 </div>
                 <div>

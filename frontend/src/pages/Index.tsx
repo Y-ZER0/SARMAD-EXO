@@ -6,7 +6,6 @@ import { Navigation } from "@/components/Navigation";
 import { Dashboard } from "@/components/Dashboard";
 import ExoDetector from "@/components/ExoDetector";
 import { ExoplanetSearch } from "@/components/ExoplanetSearch";
-import { Chatbot } from "@/components/Chatbot";
 import { SpaceAmbientAudio } from "@/components/SpaceAmbientAudio";
 import { ResearchCommunity } from "@/components/ResearchCommunity";
 
@@ -62,8 +61,6 @@ const Index = () => {
         return <ExoplanetSearch />;
       case "community":
         return <ResearchCommunity />;
-      case "chatbot":
-        return <Chatbot />;
       default:
         return <Welcome onEnter={handleWelcomeEnter} />;
     }

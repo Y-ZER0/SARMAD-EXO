@@ -104,7 +104,7 @@ export const Auth = ({ onAuthSuccess }: AuthProps) => {
         <div className="text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full border-2 border-primary/30 bg-card/40 backdrop-blur-sm animate-pulse-glow">
             <img
-              src="../public/Black_and_White_Minimal_Negative_Space_Design_Studio_Logo-removebg-preview.png"
+              src="../public/planet.png"
               alt="SARMAD Research Portal"
               className="h-20 w-auto object-contain"
             />
